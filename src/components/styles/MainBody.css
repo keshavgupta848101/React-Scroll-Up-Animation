@@ -1,0 +1,23 @@
+.MainBody {
+  width: 100vw;
+  height: 80vh;
+  background-color: #0196e3;
+  color: white;
+  display: flex;
+}
+
+.leftBox {
+  width: 50%;
+  /* height: 100px; */
+  display: flex;
+  justify-content: flex-end;
+  margin: auto 0px auto 0px;
+}
+
+.rightBox {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid white;
+}
